@@ -1,6 +1,6 @@
-# grunt-assets-version-replace
+# grunt-assets-version-replace  [![Build Status](https://travis-ci.org/Black-Mirror/grunt-assets-version-replace.svg?branch=master)](https://travis-ci.org/Black-Mirror/grunt-assets-version-replace) [![npm version](https://badge.fury.io/js/grunt-assets-version-replace.svg)](http://badge.fury.io/js/grunt-assets-version-replace)
 
-> 最简单的管理网站的静态资源版本号方案
+> 最简单的模板文件静态资源版本号替换方案
 
 ## 说明
 
