@@ -25,20 +25,6 @@ grunt.loadNpmTasks('grunt-assets-version-replace');
 
 ### 配置选项
 
-#### options.tsPrefix
-
-时间戳前缀，比如生成 'taobao_new_home_auto_create_ts_1421999411.js'，前缀即是 `taobao_new_home_auto_create_ts_`。用于搜索、替换模板文件中的时间戳。**同一个模板文件中可能要替换两个或多个不同前缀组成的时间戳。**
-
-Type: `String`
-Default value: `auto_create_ts_`
-
-#### options.templateList
-
-要替换时间戳的 html 或 php 或其他任意格式的文件模板
-
-Type: `Array`
-Default value: `[]`
-
 #### options.tsFiles
 
 要复制成以时间戳命名的文件列表
@@ -46,9 +32,26 @@ Default value: `[]`
 Type: `Array`
 Default value: `[]`
 
+
+#### options.tsPrefix
+
+时间戳前缀，比如生成 'taobao_new_home_auto_create_ts_1421999411.js'，前缀即是 `taobao_new_home_auto_create_ts_`。用于搜索、替换模板文件中的时间戳。**同一个模板文件中可能要替换两个或多个不同前缀组成的时间戳。**
+
+Type: `String`
+Default value: `auto_create_ts_`
+
+
 #### options.tsVersionedFilesDest
 
 复制出以时间戳命名的文件列表后目标文件夹
+
+Type: `Array`
+Default value: `[]`
+
+
+#### options.replaceTemplateList
+
+要替换时间戳的 html 或 php 或其他任意格式的文件模板
 
 Type: `Array`
 Default value: `[]`
@@ -82,7 +85,7 @@ grunt.initConfig({
 ```
 
 
-> 生成结果如：
+    生成结果：
     dest/app.auto_create_ts_1421999411.js
     dest/webapp.auto_create_ts_1421999411.css
 
@@ -116,7 +119,7 @@ grunt.initConfig({
 ```
 
 
-> 生成结果如：
+    生成结果：
     dest/js_build/app.auto_create_ts_1421999411.js
     dest/css_build/webapp.auto_create_ts_1421999411.css
     dest/submodule/js_build/app.auto_create_ts_1421999411.js
