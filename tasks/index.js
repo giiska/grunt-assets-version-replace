@@ -19,11 +19,11 @@ module.exports = function(grunt) {
     var tsPrefix = this.data.tsPrefix;
     // 默认值
     if(!tsPrefix)
-      tsPrefix = 'auto_create_ts';
+      tsPrefix = 'auto_create_ts_';
 
     // console.log(newTS)
     // console.log(tsPrefix)
-    console.log('prefix with: "' + tsPrefix + '"');
+    console.log('prefix with: "' + tsPrefix + newTS + '"');
 
     //get the full asset text, like "text/javascript" src="dogeout/js_build/app.auto_create_ts_1415079600.js"
     var re1 = new RegExp("([\\\"|\\\'].*\\\." + tsPrefix + ")(\\\d+)(\\\.js[\\\"|\\\'])", "g");

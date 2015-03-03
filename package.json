@@ -1,7 +1,7 @@
 {
   "name": "grunt-assets-version-replace",
   "description": "Generate and replace static assets version with Grunt",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "homepage": "https://github.com/Black-Mirror/grunt-assets-version-replace",
   "author": {
     "name": "bammoo",
@@ -31,9 +31,10 @@
     "grunt": "~0.4.1",
     "grunt-contrib-clean": "~0.4.1",
     "grunt-contrib-jshint": "~0.1.1",
-    "grunt-contrib-nodeunit": "~0.1.2",
     "load-grunt-tasks": "^0.6.0",
-    "mock-fs": "^2.3.1"
+    "grunt-mocha-test": "0.11.0",
+    "mocha": "1.21.4",
+    "should": "4.0.4"
   },
   "browserDependencies": {
     "grunt": "~0.4.1"
