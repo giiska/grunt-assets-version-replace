@@ -1,23 +1,23 @@
 {
   "name": "grunt-assets-version-replace",
   "description": "Generate and replace static assets version with Grunt",
-  "version": "0.2.1",
-  "homepage": "https://github.com/Black-Mirror/grunt-assets-version-replace",
+  "version": "0.2.3",
+  "homepage": "https://github.com/bammoo/grunt-assets-version-replace",
   "author": {
     "name": "bammoo",
     "email": "xiao-jianfeng@qq.com"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/Black-Mirror/grunt-assets-version-replace.git"
+    "url": "git://github.com/bammoo/grunt-assets-version-replace.git"
   },
   "bugs": {
-    "url": "https://github.com/Black-Mirror/grunt-assets-version-replace/issues"
+    "url": "https://github.com/bammoo/grunt-assets-version-replace/issues"
   },
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://github.com/Black-Mirror/grunt-assets-version-replace/blob/master/LICENSE.md"
+      "url": "https://github.com/bammoo/grunt-assets-version-replace/blob/master/LICENSE.md"
     }
   ],
   "main": "Gruntfile.js",
