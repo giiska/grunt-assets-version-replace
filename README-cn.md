@@ -129,6 +129,7 @@ grunt.initConfig({
 
 ## Release History
 
+* 2015-12-13   v0.2.2   Update github repo link
 * 2015-03-03   v0.2.1   Fix typo
 * 2015-02-06   v0.2.0   Migrate and refactor
 * 2015-01-06   v0.1.0   Initial commit
