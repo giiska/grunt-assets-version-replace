@@ -1,4 +1,4 @@
-# grunt-assets-version-replace  [![Build Status](https://travis-ci.org/Black-Mirror/grunt-assets-version-replace.svg?branch=master)](https://travis-ci.org/Black-Mirror/grunt-assets-version-replace) [![npm version](https://badge.fury.io/js/grunt-assets-version-replace.svg)](http://badge.fury.io/js/grunt-assets-version-replace)
+# grunt-assets-version-replace  [![Build Status](https://travis-ci.org/bammoo/grunt-assets-version-replace.svg?branch=master)](https://travis-ci.org/bammoo/grunt-assets-version-replace) [![npm version](https://badge.fury.io/js/grunt-assets-version-replace.svg)](http://badge.fury.io/js/grunt-assets-version-replace)
 
 [Gulp version is here](https://github.com/bammoo/gulp-assets-version-replace)
 
@@ -57,8 +57,8 @@ Your get these result:
 * **Files named with generated version** 
 
 ```
-    dest/app.auto_create_ts_1421999411.js
-    dest/webapp.auto_create_ts_1421999411.css
+dest/js_build/app.auto_create_ts_1421999411.js
+dest/css_build/webapp.auto_create_ts_1421999411.css
 ```
 
 * **LInks in template have been replaced with generated version**
