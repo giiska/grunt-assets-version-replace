@@ -1,7 +1,7 @@
 {
   "name": "grunt-assets-version-replace",
   "description": "Generate and replace static assets version with Grunt",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "homepage": "https://github.com/bammoo/grunt-assets-version-replace",
   "author": {
     "name": "bammoo",
@@ -43,7 +43,12 @@
     "grunt": "~0.4.1"
   },
   "keywords": [
-    "gruntplugin"
+    "gruntplugin",
+    "grunt",
+    "assets",
+    "static",
+    "version",
+    "grunt-version"
   ],
   "dependencies": {
     "grunt-contrib-copy": "^0.7.0"

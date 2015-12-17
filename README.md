@@ -4,10 +4,13 @@
 
 [中文文档](README-cn.md)
 
-> **The simplest version manage solution of website assets.**
->  
->  Support manage assets version in template files of php, python Django, Express and etc.
+> Grunt plugin for managing version of assets, easy to build new version to commit and deploy.
 
+## Features
+
+- Generate file version by timestamp
+- Auto replace versioned assets in template files, like php, python Django, Expressjs ejs and etc.
+  
 
 ## Example
 

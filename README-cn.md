@@ -1,6 +1,12 @@
 # grunt-assets-version-replace  [![Build Status](https://travis-ci.org/Black-Mirror/grunt-assets-version-replace.svg?branch=master)](https://travis-ci.org/Black-Mirror/grunt-assets-version-replace) [![npm version](https://badge.fury.io/js/grunt-assets-version-replace.svg)](http://badge.fury.io/js/grunt-assets-version-replace)
 
-> 最简单的模板文件静态资源版本号替换方案
+> 静态文件版本管理 Grunt 插件，最方便的静态文件发布方案。
+
+## Features
+
+- js css 等静态文件生成以当前时间截命名的新文件
+- 自动替换所有模板引用，理论上支持所有模板语言 php, python Django, Expressjs ejs jade 等
+
 
 ## 说明
 
